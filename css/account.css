@@ -1,0 +1,82 @@
+
+
+.pagetstart{
+    background-image: url(/images/page-header-bg.jpg);
+    width: 100%;
+    height: 10rem;
+    text-align: center;
+    margin: 3rem auto;
+}
+.pagetstart> p{
+    padding: 4.5rem;
+    font-family: Verdana;
+    font-size:xx-large;
+    color:  rgb(222, 107, 50);
+}
+
+
+.accountbody{
+    display: flex;
+    justify-content:space-around; 
+    margin: 1rem 4rem;
+    margin-bottom: 3rem;
+    height:100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.dashboard{
+    width:20%;
+    height:60%;
+    
+}
+.dashlist{
+    width: 100%;
+    list-style: none;
+    
+}
+.dashitem{
+    padding: 0.5rem ;
+    color: rgb(85, 82, 82);
+}
+.dashitem:hover{
+    cursor: pointer;
+    color: rgb(222, 107, 50); ;
+}
+hr{
+    font-weight: 20px;
+}
+ 
+.dasitemclick{
+   width:70%;
+   height: 100%;
+    
+}
+.dasitemclick p{
+    color: gray;
+    
+}
+.black{
+    color: black;
+}
+.brown{
+    color:rgb(151, 64, 21); 
+}
+.brown:hover{
+    cursor: pointer;
+}
+ .orderclick  form{
+    text-align: center;
+} 
+.goshop{
+    margin: 1rem auto;
+    background-color: white;
+    border: 1px solid rgb(151, 64, 21);
+    color:rgb(151, 64, 21) ;
+    padding: 0.5rem 2rem;
+}
+.goshop:hover{
+    cursor: pointer;
+    background-color: rgb(227, 99, 35);
+    color: white;
+
+}

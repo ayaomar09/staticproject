@@ -1,0 +1,123 @@
+.mainblog{
+    display: flex;
+    justify-content:space-around;
+    width: 90%;
+    margin: 1rem auto;
+    
+
+}
+.blog{
+    width:35% ;
+    text-align: center;
+}
+.blog3{
+    width:20%; 
+}
+.charachter{
+    width:100%;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.charimg{
+    width:28rem;
+    height: 20rem;
+    
+}
+.charcaption{
+    display: flex;
+    padding: 1rem 1rem;
+    color: rgb(166, 160, 160);
+}
+.charcaption p:hover{
+    cursor: pointer;
+    color: rgb(219, 84, 26);
+}
+.paragraph{
+    text-align: left;
+    color: rgb(166, 160, 160);
+    padding: 1rem;
+}
+.paragraphtitle{
+    font-size: larger;
+    color: rgb(33, 31, 31);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.paragraphtitle:hover{
+    cursor: pointer;
+    color: rgb(226, 121, 72);
+}
+.paracontent1{
+    font-size: small;
+    padding: 0.5rem;
+}
+span:hover{
+    color:  rgb(219, 84, 26);
+    cursor: pointer;
+
+}
+.continue{
+    background-color: white;
+    border: none;
+    margin: 1rem auto;
+    color: rgb(160, 99, 73) ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0.5rem;
+}
+.continue:hover{
+    
+    cursor: pointer;
+    color:rgb(244, 82, 12) ;
+    border-bottom: 1px solid rgb(244, 82, 12);
+
+}
+.search{
+    width:80%;
+    height: 2.5rem;
+    margin: 1rem 0.2rem;
+    border-radius: 0.5rem;
+    border: 1px solid rgb(212, 211, 211);
+}
+.category{
+    color: rgb(31, 27, 27);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:small;
+    margin: 2rem auto;
+}
+.catp{
+    font-size: large;
+    margin: 1rem 0.5rem;
+}
+.cat{
+    margin: 1rem auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem ;
+}
+.popimg img{
+    width:5rem;
+    height: 5rem;
+}
+.popsec{
+    display: flex;
+    margin: 1rem ;
+}
+.popcaption{
+   margin: 1rem;
+}
+.date{
+    color: rgb(179, 176, 176);
+}
+.disc:hover{
+    cursor: pointer;
+    color: rgb(225, 162, 128);
+}
+.banner{
+    text-align: center;
+}
+
+.bannerph:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+

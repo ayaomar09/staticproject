@@ -1,0 +1,201 @@
+
+
+.cartbody{
+   
+    width: 80%;
+    margin: 1rem auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.products{
+    float: left;
+    width: 70%;
+    
+}
+
+table{
+    width: 100%;
+   
+}
+.product{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+ .productpic{
+    float: left;
+} 
+.productname:hover{
+    cursor: pointer;
+    color: rgb(184, 90, 61);
+}
+
+th{
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+    color: rgb(127, 121, 121);
+    border-bottom: 1px solid rgb(217, 211, 211);
+    font-weight: lighter;
+}
+td{
+    border-bottom: 1px solid rgb(217, 211, 211);
+}
+.qu{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    border: 1px solid;
+    padding: 0.5rem;
+}
+.total{
+    font-weight: bold;
+    color: rgb(184, 90, 61);
+}
+.productth{
+    padding-right: 15rem;
+}
+.footer{
+    clear: both;
+    margin-top:10rem;
+}
+.couponsec{
+    margin: 1.5rem ;
+}
+.coupon{
+    padding: 0.6rem;
+    width: 50%;
+    border: 1px solid rgb(196, 191, 191);
+    background-color:#F5F6F9;
+}
+.couponsubmit{
+
+    padding:0.6rem;
+    border:1px solid  rgb(153, 100, 75);
+    background-color: white;
+    color:  rgb(153, 100, 75);
+    font-size: larger;
+    margin: 0.5rem;
+}
+.couponsubmit:hover{
+
+    cursor: pointer;
+    background-color: rgb(153, 100, 75);
+    color: white;
+    
+    
+}
+.remove{
+    color: rgb(187, 179, 179);
+}
+.remove:hover{
+    cursor: pointer;
+    color: rgb(39, 37, 37);
+}
+.carttotal{
+    float: right;
+    width: 29%;
+   
+    padding: 1rem;
+    margin-bottom: 3rem;
+    
+}
+.carttotal2{
+    width: 100%;
+    height: 100%;
+    background-color: #F5F6F9;
+   
+
+}
+.totalcart{
+    font-size: larger;
+    padding: 1rem;
+}
+
+hr{
+    margin: 1rem auto;
+    width: 95%;
+    clear: both;
+}
+.subtotal{
+    padding: 1rem;
+}
+.subtotalp{
+    float: left;
+}
+.subtotalval{
+    float: right;
+}
+
+
+.shipping{
+    width: 100%;
+    padding: 1rem;
+}
+.shippingform{
+    color: rgb(123, 119, 119);
+    font-size: small;
+    width: 100%;
+    height: 100%;
+    margin: 1rem auto;
+}
+.shiporder{
+     display: flex;
+    justify-content:space-between; 
+    width: 100%;
+    padding: 1rem;
+}
+.changeadd{
+    color: rgb(161, 156, 156);
+    font-size: small;
+    text-decoration: underline;
+    margin-bottom: 2rem;
+}
+
+.changeadd:hover{
+    cursor: pointer;
+    color: rgb(220, 90, 30);
+    
+}
+.totalf{
+    display: flex;
+    justify-content: space-between;
+    color:#CC9966 ;
+    font-size: large;
+}
+.carttotalsubm{
+    border:1px solid  rgb(153, 100, 75);
+    color:  rgb(153, 100, 75);
+    background: none;
+    margin-top: 2rem ;
+    padding: 0.5rem 1rem;
+}
+.carttotalsubm:hover{
+    background-color:#CC9966 ;
+    color: white;
+    cursor: pointer;
+}
+.carttotalsubmdiv{
+    text-align: center;
+}
+.estimateadd{
+    color: black;
+    margin: 0.5rem;
+    
+}
+
+.backshop{
+    border:1px solid  #d8d9db;
+    background: none;
+    margin-top: 2rem ;
+    padding: 0.5rem 2rem;
+    width: 100%;
+
+}
+.backshop:hover{
+    background-color: #F5F6F9;
+    color: rgb(153, 100, 75);
+    cursor: pointer;
+
+}

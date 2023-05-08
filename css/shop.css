@@ -1,0 +1,153 @@
+.mainshop{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 2rem;
+
+}
+.categories{
+    width: 25%;
+   box-shadow:  5px 5px 10px rgb(221, 218, 218);
+   height: 60%;
+    
+}
+.productcats{
+    width:80%;
+   
+}
+
+.productgp1{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem auto;
+
+}
+.product{
+    width:20%;
+    text-align: center;
+    box-shadow: 5px 5px 20px rgb(245, 241, 241) ,-5px -5px 20px rgb(255, 252, 252) ;
+}
+.product:hover{
+    box-shadow: 5px 5px 5px rgb(228, 226, 226) ,-5px -5px 5px rgb(228, 226, 226) ;
+   
+}
+.toppart:hover{
+    cursor: pointer;
+    
+}
+.toppart img{
+    height:12rem;
+
+
+}
+
+
+ /* .product:hover .middlepart{
+    text-align: center;
+    background-color: rgb(220, 217, 217);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1rem;
+}  */
+.middlepart{
+    text-align: center;
+    background-color: rgb(246, 244, 244);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0.5rem;
+    width: 95%;
+    margin: 0rem auto;
+   /* display: none;  */
+}
+
+
+.middlepart:hover{
+    cursor: pointer;
+    color: white;
+    background-color: rgb(231, 148, 93);
+    
+}
+.lastpart{
+   text-align: center;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: rgb(41, 38, 38);
+}
+.namecat{
+    color: rgb(121, 117, 117);
+    margin:0.5rem auto;
+    padding :0.2 1rem;
+}
+.namepro:hover{
+    color: rgb(235, 119, 41);
+    cursor: pointer;
+    
+}
+.priceyello{
+    color: rgb(198, 117, 51);
+    margin: 1rem;
+}
+.prodimgs{
+    display: flex;
+    justify-content:space-evenly;
+    width:50%;
+    margin: 2rem auto; 
+}
+.prodimgs img{
+    width: 4rem;
+    border: 1px solid rgb(195, 193, 193);
+}
+.prodimgs img:hover{
+   cursor: pointer;
+   opacity: 0.5;
+}
+.note{
+    width: 40%;
+    margin: 1rem;
+    color: white;
+    padding: 0.6rem 0rem;
+    border-radius: 2rem;
+   
+}
+.top{
+    background-color: rgb(86, 158, 217);
+}
+.new{
+    background-color: rgb(94, 230, 169);
+
+}
+.out{
+    background-color: rgb(139, 148, 156);
+
+}
+.categoryform{
+    width: 90%;
+    margin-left: 1rem;
+    border-bottom: 1px solid rgb(230, 226, 226);
+ 
+}
+.category{
+    margin: 2rem auto;
+    
+}
+
+.categoryorder{
+    display: flex;
+    justify-content:space-between ;
+    margin: 1rem auto;
+}
+.categoryval{
+    color: rgb(98, 92, 92);
+    background-color: rgb(237, 229, 229);
+    padding: 0.2rem;
+    border-radius: 0.2rem;
+}
+.categoryp{
+font-size: large;
+font-family: Verdana;
+}
+
+.pricep{
+    color: rgb(165, 163, 163);
+    font-size:medium;
+    margin-left:1rem ;
+}
+span{
+    color: rgb(222, 142, 38);
+}
